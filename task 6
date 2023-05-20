@@ -1,0 +1,48 @@
+2)https://medium.com/@reach2arunprakash/guvi-zen-class-find-the-culprits-and-nail-them-9ee6c67c44fb
+ 1)The error is here - ( “I’m JavaScript!’); 
+ 2)The error is - <script src=”script.js”></script>
+ 3)The altered code is
+let admin = 9;
+ let fname = 10.5;
+ fname = "Guvi";
+ let lname = "geek";
+ admin = fname + " " + lname;
+ alert(admin);
+
+ 4)let fname = 10.5;
+ fname = "Guvi";
+ let lname = "geek"; 
+ let name = fname + " " + lname; 
+ alert(`hello ${name}`); 
+
+ 5)let a = prompt("First number?");
+ let b = prompt("Second number?");
+ let sum = parseInt(a) + parseInt(b);
+ alert("The sum is: " + sum);
+
+ 6)let a = prompt("First number?");
+ let b = prompt("Second number?");
+ let sum = Number(a) + Number(b);
+ alert("The sum is: " + sum);
+ 
+ 3) https://medium.com/@reach2arunprakash/www-guvi-io-zen-4fa483a7d359
+ 1)var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+ var result = "";
+ 
+ for (var i = 0; i < numsArr.length; i++) {
+   result += numsArr[i];
+ }
+ 
+ console.log(result);
+2) var numsArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+var result = "";
+
+for (var i = 0; i < numsArr.length; i++) {
+    result += numsArr[i];
+  if (i !== numsArr.length - 1) {
+    result += ",";
+  }
+}
+
+console.log(result);
+
